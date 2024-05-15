@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://educacion.gob.ec/wp-content/uploads/2019/09/monufar-3.png");
+    background-size: cover; /* Cubrir toda la pantalla */
+        background-position: center; /* Centrar la imagen */
+        background-repeat: no-repeat; /* No repetir la imagen */
+        height: 100vh; /* Altura del cuerpo igual al 100% de la ventana */
+        margin: 0; /* Eliminar márgenes */
+        padding: 0; /* Eliminar relleno */
+}
+.password{
+    margin-top: 10px;
+}
+.inicioSesion{
+    margin-top: 15px;
+}
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Bordes redondeados */
+}
+.inicioSesion button[type="submit"] {
+    background-color: #106cfc ; /* Color de fondo azul */
+    color: white;
+    border: none;
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 7px 70px;
+    cursor: pointer;
+}
+.img-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.card {
+    border-radius: 15px; /* Bordes redondeados */
+    border-radius: 15px; /* Bordes redondeados */
+            backdrop-filter: blur(10px); /* Aplica el efecto de desenfoque */
+            background-color: rgba(255, 255, 255, 0.5); /* Hace que el fondo sea transparente */
+        
+    
+}
+.formu{
+    border-radius: 10px;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.card-body {
+    padding: 1.5rem;
+    
+}
